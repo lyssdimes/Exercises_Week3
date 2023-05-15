@@ -106,6 +106,6 @@ public class App {
         // i++;
         // }
         // System.out.println("The factorial of " + userIntiger + " is: " + sum);
-
+// half completed
     }
 }
