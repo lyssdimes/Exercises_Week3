@@ -3,7 +3,7 @@
  */
 package exercises_week3;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
@@ -49,63 +49,111 @@ public class App {
         // System.out.println("This character is not a vowel");
         // }
         // input.close();
-        // 4.
 
-        // FOR LOOP EXERCISES**********
-
-        // 1. Write a program that prints the sum of the
-        // numbers from 1 to 100 using a for loop
-        // int sum = 0;
-        // for(int i = 1; i<=100; i++){
-        // sum = sum + i;}
-        // System.out.println(sum);
-
-        // 2. Write a program that prints the even numbers from 1 to 20 using a for
-        // loop.
-        // for (int i = 2; i <= 20; i += 2) {
-        // System.out.println(i);
+        // 4.Write a program that prompts the user to enter three integers and checks
+        // whether the first two integers add up to the third integer.
+        // Scanner input = new Scanner (System.in);
+        // System.out.println("Please enter your first number");
+        // int savedUserIntOne = input.nextInt();
+        // System.out.println("Please enter your second number");
+        // int savedUserIntTwo = input.nextInt();
+        // System.out.println("Please enter your third number");
+        // int savedUserIntThree = input.nextInt();
+        // if (savedUserIntOne + savedUserIntTwo == savedUserIntThree){
+        // System.out.println("Nice. " + savedUserIntOne + " + " + savedUserIntTwo + " =
+        // " + savedUserIntThree);
+        // }else{
+        // System.out.println("Integer 1 + integer 2 does not equal integer 3");
         // }
-
-        // 3. Write a program that prints the odd numbers from 1 to 15 using a for loop.
-        // for(int i=1;i<=15;i+=2){
-        // System.out.println(i);
-        // }
-
-        // WHILE LOOP EXERCISES *******
-        // 1. Write a program that prompts the user to enter a number and prints the
-        // sum of all numbers from 1 to that number using a while loop.
+        // input.close();
+        // 5. Write a program that prompts the user to enter an integer and 
+        // checks whether it is a multiple of both 3 and 5.
         // Scanner input = new Scanner(System.in);
-        // System.out.println("Please enter a number");
-        // int userNumber = input.nextInt();
-        // int sum = 0;
-        // int i = 1;
-        // while(i <= userNumber){
-        // sum += i;
-        // i++;
-        // }
-        // System.out.println("The sum of all numbers from 1 to " + userNumber + " is: "
-        // + sum);
+        // System.out.println("Please enter an integer");
+        // int multipleOf5sAnd3s = input.nextInt();
+        // if(multipleOf5sAnd3s%5==0 && multipleOf5sAnd3s%3==0){
+        //     System.out.println("Cool deal. That integer is a multiple of 5 and 3");
+        // }else if(multipleOf5sAnd3s%5==0 || multipleOf5sAnd3s%3==0){
+        //         System.out.println("That integer is only a multiple of 5 or 3, not both");
+        //     }else{
+        //         System.out.println("That integer is not a multiple of 5 or 3");
+        //     }
         // input.close();
 
-        // 2. Write a program that prints all the numbers
-        // from 100 to 1 using a while loop.
-        // int number = 101;
-        // while(number >= 1){
-        // number--;
-        // System.out.println(number);
-        // }
-        // 3. Write a program that prompts the user to enter a number
-        // and prints the factorial of that number using a while loop
+        // 6. Write a program that prompts the user to enter two 
+        // integers and checks whether their difference is odd.
         // Scanner input = new Scanner(System.in);
-        // System.out.println("Please enter a number");
-        // int userIntiger = input.nextInt();
-        // int i = 1;
-        // int sum = 1;
-        // while(i < userIntiger){
-        // sum *= i;
-        // i++;
+        // System.out.println("Please enter an integer");
+        // int differenceIsOdd1 = input.nextInt();
+        // System.out.println("Please enter another integer");
+        // int differenceIsOdd2 = input.nextInt();
+        // int totalDifference = differenceIsOdd1-differenceIsOdd2;
+        // boolean modulus = totalDifference%2==0;
+        // boolean modulusFalse = totalDifference%2!=0;
+        // if(modulus) {
+        //     System.out.println("The difference of the two integers is even");
+        // }else if (modulusFalse){
+        //     System.out.println("The difference of the two integers is odd");
+        // }else{
+        //     System.out.println("You stumped me");
         // }
-        // System.out.println("The factorial of " + userIntiger + " is: " + sum);
-// half completed
+        // input.close();
     }
 }
+
+// FOR LOOP EXERCISES**********
+
+// 1. Write a program that prints the sum of the
+// numbers from 1 to 100 using a for loop
+// int sum = 0;
+// for(int i = 1; i<=100; i++){
+// sum = sum + i;}
+// System.out.println(sum);
+
+// 2. Write a program that prints the even numbers from 1 to 20 using a for
+// loop.
+// for (int i = 2; i <= 20; i += 2) {
+// System.out.println(i);
+// }
+
+// 3. Write a program that prints the odd numbers from 1 to 15 using a for loop.
+// for(int i=1;i<=15;i+=2){
+// System.out.println(i);
+// }
+
+// WHILE LOOP EXERCISES *******
+// 1. Write a program that prompts the user to enter a number and prints the
+// sum of all numbers from 1 to that number using a while loop.
+// Scanner input = new Scanner(System.in);
+// System.out.println("Please enter a number");
+// int userNumber = input.nextInt();
+// int sum = 0;
+// int i = 1;
+// while(i <= userNumber){
+// sum += i;
+// i++;
+// }
+// System.out.println("The sum of all numbers from 1 to " + userNumber + " is: "
+// + sum);
+// input.close();
+
+// 2. Write a program that prints all the numbers
+// from 100 to 1 using a while loop.
+// int number = 101;
+// while(number >= 1){
+// number--;
+// System.out.println(number);
+// }
+// 3. Write a program that prompts the user to enter a number
+// and prints the factorial of that number using a while loop
+// Scanner input = new Scanner(System.in);
+// System.out.println("Please enter a number");
+// int userInteger = input.nextInt();
+// int i = 1;
+// int sum = 1;
+// while(i < userInteger){
+// sum *= i;
+// i++;
+// }
+// System.out.println("The factorial of " + userInteger + " is: " + sum);
+// half completed
