@@ -3,7 +3,7 @@
  */
 package exercises_week3;
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
@@ -165,10 +165,11 @@ public class App {
         // 2. Write a program that prints all the numbers
         // from 100 to 1 using a while loop.
         // int number = 101;
-        // while(number >= 1){
+        // while(number > 1){
         // number--;
         // System.out.println(number);
         // }
+
         // 3. Write a program that prompts the user to enter a number
         // and prints the factorial of that number using a while loop
         // Scanner input = new Scanner(System.in);
@@ -181,5 +182,39 @@ public class App {
         // i++;
         // }
         // System.out.println("The factorial of " + userInteger + " is: " + sum);
+
+        // 4. Write a program that prompts the user to enter a number and prints the sum
+        // of the
+        // digits of that number using a while loop.
+        // Scanner input = new Scanner(System.in);
+        // System.out.println("Please enter a number");
+        // int userInt = input.nextInt();
+        // int sum = 0;
+        // int decreasingNumber = userInt;
+        // while(decreasingNumber != 0){
+        // int singleDigit = decreasingNumber%10;
+        // sum += singleDigit;
+        // decreasingNumber/=10;
+        // }
+        // System.out.println("The sum of the digits of your number is: " + sum);
+        // input.close();
+
+        // 5. Write a program that prompts the user to enter a number and checks
+        // whether it is a perfect square using a while loop.
+        // Scanner input = new Scanner(System.in);
+        // System.out.println("Please enter a number");
+        // int userNumber = input.nextInt();
+        // int perfectSquare = 1;
+        // int i = 1;
+        // while(perfectSquare < userNumber){
+        // i++;
+        // perfectSquare = i * i;
+        // }
+        // if (perfectSquare == userNumber){
+        // System.out.println("Your number " + userNumber + " is a perfect square");
+        // }else{
+        // System.out.println("Your number " + userNumber + " is not a perfect square");
+        // }
+        // input.close();
     }
 }
