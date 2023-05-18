@@ -3,7 +3,8 @@
  */
 package exercises_week3;
 
-import java.util.Scanner;
+// import java.util.Scanner;
+
 
 public class App {
     public static void main(String[] args) {
@@ -146,6 +147,17 @@ public class App {
         // }
         // input.close();
 
+                // 6.Write a program that prompts the user to enter a number and 
+        // prints the multiplication table for that number using a for loop
+        // Scanner input = new Scanner(System.in);
+        // System.out.println("Please enter a number");
+        // int userInt = input.nextInt();
+        // for(int i = 1; i<=10; i++){
+        // int multTable = userInt * i;
+        // System.out.println(userInt + " x " + i + " = " + multTable);
+        // }
+        // input.close();
+
         // WHILE LOOP EXERCISES *******
         // 1. Write a program that prompts the user to enter a number and prints the
         // sum of all numbers from 1 to that number using a while loop.
@@ -184,8 +196,7 @@ public class App {
         // System.out.println("The factorial of " + userInteger + " is: " + sum);
 
         // 4. Write a program that prompts the user to enter a number and prints the sum
-        // of the
-        // digits of that number using a while loop.
+        // of the digits of that number using a while loop.
         // Scanner input = new Scanner(System.in);
         // System.out.println("Please enter a number");
         // int userInt = input.nextInt();
@@ -214,6 +225,19 @@ public class App {
         // System.out.println("Your number " + userNumber + " is a perfect square");
         // }else{
         // System.out.println("Your number " + userNumber + " is not a perfect square");
+        // }
+        // input.close();
+
+        // 6. Write a program that prompts the user to enter a number and prints the 
+        // multiplication table for that number using a while loop.
+        // Scanner input = new Scanner(System.in);
+        // System.out.println("Please enter a number");
+        // int userInt = input.nextInt();
+        // int i = 1;
+        // while(i <= 10){
+        //     int multiplicationTable = i * userInt;
+        //     System.out.println(i + " x " + userInt + " = " + multiplicationTable);
+        //     i++;
         // }
         // input.close();
     }
